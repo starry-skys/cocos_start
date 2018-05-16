@@ -1,0 +1,66 @@
+2018-05-15T10:28:59.093Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-15T10:28:59.097Z - normal: checking language setting...
+2018-05-15T10:28:59.097Z - normal: Language: zh
+2018-05-15T10:29:00.332Z - success: protocol editor-framework registered
+2018-05-15T10:29:00.332Z - success: protocol app registered
+2018-05-15T10:29:00.333Z - success: protocol theme registered
+2018-05-15T10:29:00.333Z - success: protocol packages registered
+2018-05-15T10:29:00.333Z - success: protocol unpack registerred
+2018-05-15T10:29:00.333Z - success: protocol disable-commonjs registerred
+2018-05-15T10:29:01.518Z - normal: connected!
+2018-05-15T10:29:01.519Z - normal: Check project /Users/sunfund/start_project
+2018-05-15T10:29:01.521Z - normal: Initializing Cocos2d
+2018-05-15T10:29:01.851Z - normal: Initializing Asset Database
+2018-05-15T10:29:01.883Z - success: protocol uuid registerred
+2018-05-15T10:29:01.884Z - success: protocol db registerred
+2018-05-15T10:29:01.884Z - success: protocol thumbnail registerred
+2018-05-15T10:29:01.884Z - normal: Loading editor/builtin packages
+2018-05-15T10:29:01.911Z - success: anysdk loaded
+2018-05-15T10:29:02.072Z - success: assets loaded
+2018-05-15T10:29:02.083Z - success: builder loaded
+2018-05-15T10:29:02.086Z - success: cocos-analytics loaded
+2018-05-15T10:29:02.102Z - success: console loaded
+2018-05-15T10:29:02.138Z - success: fb-instant-games loaded
+2018-05-15T10:29:02.149Z - success: hierarchy loaded
+2018-05-15T10:29:02.163Z - success: inspector loaded
+2018-05-15T10:29:02.165Z - success: keystore loaded
+2018-05-15T10:29:02.180Z - success: node-library loaded
+2018-05-15T10:29:02.182Z - success: package-asset loaded
+2018-05-15T10:29:02.185Z - success: preferences loaded
+2018-05-15T10:29:02.199Z - success: project-exporter loaded
+2018-05-15T10:29:02.225Z - success: project-importer loaded
+2018-05-15T10:29:02.235Z - success: project-settings loaded
+2018-05-15T10:29:02.247Z - success: ui-kit loaded
+2018-05-15T10:29:02.261Z - success: ui-grid loaded
+2018-05-15T10:29:02.275Z - success: scene loaded
+2018-05-15T10:29:02.277Z - success: sprite-editor loaded
+2018-05-15T10:29:02.290Z - success: store loaded
+2018-05-15T10:29:02.314Z - success: timeline loaded
+2018-05-15T10:29:02.315Z - normal: Loading builtin packages
+2018-05-15T10:29:02.327Z - success: asset-db-debugger loaded
+2018-05-15T10:29:02.328Z - success: color-picker loaded
+2018-05-15T10:29:02.340Z - success: package-manager loaded
+2018-05-15T10:29:02.352Z - success: sdkbox loaded
+2018-05-15T10:29:02.368Z - success: tester loaded
+2018-05-15T10:29:02.383Z - success: ui-kit-preview-extra loaded
+2018-05-15T10:29:02.400Z - success: ui-kit-preview loaded
+2018-05-15T10:29:02.416Z - success: ui-tree loaded
+2018-05-15T10:29:03.915Z - normal: Initializing project /Users/sunfund/start_project
+2018-05-15T10:29:03.920Z - normal: Loading packages
+2018-05-15T10:29:03.925Z - normal: Watching packages
+2018-05-15T10:29:03.937Z - normal: Run Application
+2018-05-15T10:29:04.486Z - success: preview server running at http://localhost:7456
+2018-05-15T10:29:11.695Z - normal: 1.9.1
+2018-05-15T10:54:50.986Z - error: [db-task][sync-changes] Failed to delete asset /Users/sunfund/start_project/assets/New Folder
+    at s.AssetDB.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2578)
+    at Tasks.clearImports (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:442)
+    at Object.Tasks.clearImports (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:22895)
+    at e (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:398)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at iterate (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:262:13)
+    at Object.async.forEachOfSeries.async.eachOfSeries (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:281:9)
+    at Object.async.forEachSeries.async.eachSeries (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:214:22)
+    at Async.series.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:1046)
+2018-05-15T10:58:31.133Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35479
+2018-05-15T10:58:31.139Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35483
+2018-05-15T10:58:31.140Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35485
