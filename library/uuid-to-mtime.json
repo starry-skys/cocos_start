@@ -299,14 +299,14 @@
     "meta": 1526473961000,
     "relativePath": "scripts/Star.js"
   },
-  "432c7282-b7b4-475e-89d5-b800e3652b80": {
-    "asset": 1526474166000,
-    "meta": 1526474188000,
-    "relativePath": "scripts/Game.js"
-  },
   "3629a5b3-3e92-49f9-8ab1-8c37c64cb30d": {
     "asset": 1526474129000,
     "meta": 1526474188000,
     "relativePath": "scripts/Player.js"
+  },
+  "432c7282-b7b4-475e-89d5-b800e3652b80": {
+    "asset": 1526476983000,
+    "meta": 1526477036000,
+    "relativePath": "scripts/Game.js"
   }
 }
