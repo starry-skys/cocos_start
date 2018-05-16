@@ -84,3 +84,11 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-05-16T10:16:07.055Z - warn: The Asset used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Canvas/Player"
+Missing uuid: "1f29d2ed-4d4a-403d-a52f-41348bb150c4"
+
+2018-05-16T10:27:11.957Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:576928
+2018-05-16T11:37:51.682Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:668394
+2018-05-16T11:37:51.688Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:668397
+2018-05-16T11:37:51.689Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:668399
