@@ -101,5 +101,12 @@
       ]
     }
   },
-  "panels": {}
+  "panels": {
+    "assets": {
+      "x": 0,
+      "y": 306,
+      "width": 204,
+      "height": 422
+    }
+  }
 }

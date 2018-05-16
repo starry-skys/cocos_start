@@ -64,3 +64,23 @@
 2018-05-15T10:58:31.133Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35479
 2018-05-15T10:58:31.139Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35483
 2018-05-15T10:58:31.140Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35485
+2018-05-16T08:14:40.742Z - error: Failed to reset layout: Error: Failed to close panel scene
+    at Object.Panel._unloadAll (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2459)
+    at Async.waterfall.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dock-utils.js:1:8071)
+    at fn (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:746:34)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:1213:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:166:37
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:706:43
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:710:44)
+    at Object.DockUtils.reset (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dock-utils.js:1:8050)
+    at EventEmitter.ipcRenderer.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dock-utils.js:1:9933)
+    at DockUtils.reset.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dock-utils.js:1:9971)
+    at Async.waterfall.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dock-utils.js:1:9060)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:696:30
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at Immediate.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:1206:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
